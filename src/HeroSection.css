@@ -1,0 +1,157 @@
+.hero-Container {
+    margin-top: 6rem;
+    h4 {
+        font-family:Great2 ;
+        border: 1px solid hsl(190, 93%, 49%);
+        color: hsl(190, 93%, 49%);
+        padding: 10px;
+        width: 100%;
+        max-width: 290px;
+        border-radius: 20px;
+        font-size: 12px;
+        box-shadow: 1px 2px 2px 2px hsl(190, 93%, 49%);
+        margin-bottom: 15px;
+    }
+    h1 {
+        font-family:Great3;
+        font-size: 35px;
+    }
+    p {
+        margin-top: 2cap;
+         font-size: 20px;
+         line-height: 1.3em;
+         font-family: Great1;
+    }
+    .btnFamily {
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        margin-top: 4em;
+        button {
+            padding: 10px;
+            border-radius: 3rem;
+            cursor: pointer;
+        }
+    }
+}
+.navBtn {
+    background-color: hsl(190, 93%, 49%);
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Great3;
+    border: transparent;
+    a {
+        color: black;
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+}
+.arrow {
+    stroke: hsl(190, 93%, 49%);  
+    width: 20px;
+    height: 20px;
+}
+.WorkBtn {
+    border: 1px solid hsla(0, 0%, 100%, 0.385);
+    box-shadow: 1px 1px 1px 1px hsla(0, 0%, 100%, 0.385);
+
+    a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.702);
+    
+    }
+}
+.strategy-cnt {
+    margin-top: 20px;
+    section {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        font-family: Great1;
+        font-size: 16px;
+        padding: 3px;
+    }
+}
+.checkIcon {
+    stroke: hsl(190, 93%, 49%);
+    height: 15px;
+    width: 15px;
+}
+.left-hero {
+    background-color: hsla(197, 18%, 18%, 0.506);
+    margin-top: 2.5em;
+    padding: 20px;
+    border-radius: 9px;
+    h4 {
+        max-width: 150px;
+    }
+}
+.section-Box {
+      background-color: hsla(197, 18%, 18%, 0.506);
+      padding: 15px;
+      border-radius: 12px;
+      margin: 12px;
+      h6 {
+        background-color: transparent;
+        font-family: Great1;
+        font-weight: 400;
+        font-size: 17px;
+      }
+}
+@media(min-width:768px) {
+    .hero-Container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 10px;
+    }
+    .main-container {
+        padding: 10px 7rem;
+    }
+    .right-hero {
+        width: 60%;
+        h1 {
+            font-size: 3.2rem;
+        }
+        h4 {
+        
+        border: 1px solid transparent;
+        box-shadow: none;
+        font-family: Great3;
+        font-size: 1.4rem;
+            
+        }
+    }
+    .left-hero {
+        h4 {
+            font-family: Great3;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:768px) {
+    .hero-Container {
+        h4 {
+            width: 30%;
+        }
+    }
+}

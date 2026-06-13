@@ -1,0 +1,26 @@
+* {
+     /* background-color:hsl(243, 26%, 9%); */
+    /* color: rgba(255, 255, 255, 0.808); */
+    color: white;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    background-color: hsl(240, 59%,7%);
+    /* background-color: hsl(240, 59%, 4%); */
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: Great1;
+    src: url(/DMSans-Italic-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family: Great2;
+    src: url(/Orbitron-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Great3;
+    src: url(/Commissioner-Bold.ttf);
+}
+.main-container {
+    padding: 0.8em;
+}
