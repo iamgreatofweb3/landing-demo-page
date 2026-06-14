@@ -6,7 +6,7 @@ header {
      left: 10px;
      right: 10px;
      top: 0px;
-    z-index: 999px; 
+    z-index: 999; 
     padding: 10px;
     border-bottom: 1px solid hsla(0, 0%, 100%, 0.397);
     backdrop-filter: blur(2.3em);
