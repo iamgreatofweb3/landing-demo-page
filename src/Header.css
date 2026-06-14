@@ -1,6 +1,5 @@
  header { 
- 
-    
+    background-color: rgb;
      position: fixed;
     top: -1em;
     left: 0;
@@ -10,11 +9,10 @@
     align-items: center;
     justify-content: space-between;
     padding:1.5em;
-
+    border-bottom: 1px solid rgba(255, 255, 255, 0.59);
 }
 .left-header {
     font-family: Great3;
-    z-index: 999;
 }
 .right-header {
    z-index: 999;
@@ -30,17 +28,16 @@
 }
 
 .icon {
-    width: 45px;
-    height:45px;
-    background-color:hsla(234, 5%, 60%, 0.168);
+    width: 50px;
+    height:50px;
+    background-color:hsla(234, 5%, 60%, 0.285);
     backdrop-filter: blur(1.5rem);
     padding: 10px;
     border-radius: 12px;
-    opacity: blur;
     border-radius: 999px;
-    position: relative;
-    left: -1em;
-
+    backdrop-filter: blur(20em);
+    /* background-color: #c3cdd77d; */
+   
     
 }
 
