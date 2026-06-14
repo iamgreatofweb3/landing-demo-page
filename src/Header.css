@@ -16,18 +16,8 @@ header {
     font-family: Great3;
 }
 .right-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
- ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 30px;
-    font-size: 20px;
-    font-family: Great1;
-    
- }
+   
+ 
  li {
     list-style: none;
     display: none;
@@ -53,6 +43,14 @@ header {
     .right-header {
        li {
         display: block;
+       }
+       ul {
+        display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    font-size: 20px;
+    font-family: Great1;
        }
     }
     
