@@ -1,5 +1,5 @@
 header {
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: space-between;
      position: fixed; 
@@ -9,7 +9,9 @@ header {
     z-index: 999; 
     padding: 10px;
     border-bottom: 1px solid hsla(0, 0%, 100%, 0.397);
-   
+    */
+    
+    position: fixed;
     
 }
 .left-header {
