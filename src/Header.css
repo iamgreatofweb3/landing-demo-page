@@ -35,10 +35,7 @@
     padding: 10px;
     border-radius: 12px;
     border-radius: 999px;
-    backdrop-filter: blur(20em);
-    /* background-color: #c3cdd77d; */
-   
-    
+    backdrop-filter: blur(20em);    
 }
 
 @media (min-width:768px) {
