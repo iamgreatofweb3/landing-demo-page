@@ -9,7 +9,6 @@ header {
     z-index: 999; 
     padding: 10px;
     border-bottom: 1px solid hsla(0, 0%, 100%, 0.397);
-    backdrop-filter: blur(2.3em);
    
     
 }
@@ -40,8 +39,8 @@ header {
 }
 
 .icon {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height:45px;
     background-color:hsla(234, 5%, 60%, 0.168);
     backdrop-filter: blur(1.5rem);
     padding: 10px;

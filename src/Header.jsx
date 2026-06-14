@@ -8,7 +8,7 @@ export default function Header () {
         <header>
 
             <div className="left-header">
-                <h2>ApexForge Technologies</h2>
+                <h3>ApexForge Technologies</h3>
             </div>
             <div className="right-header">
               <ul>
