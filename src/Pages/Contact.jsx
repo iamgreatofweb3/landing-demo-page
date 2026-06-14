@@ -10,7 +10,7 @@ export default function Contact () {
             </div>
             <div className="right-contact-container">
                 <h6>Email us</h6>
-                <a href="mailto:ApexForgeTechnologies001@gmail.com">ApexForgeTechnologies001@gmail.com</a>
+                <a href="mailto:ApexForgeTechnologies001@gmail.com">ApexForgeTech@gmail.com</a>
                                
                     <div className="div">
                        <h6>Call or WhatsApp us today</h6>
