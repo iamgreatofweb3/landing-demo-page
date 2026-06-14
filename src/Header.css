@@ -1,4 +1,4 @@
-header {
+/* header { */
     /* display: flex;
     align-items: center;
     justify-content: space-between;
@@ -11,7 +11,7 @@ header {
     border-bottom: 1px solid hsla(0, 0%, 100%, 0.397);
     */
     
-    position: fixed;
+    /* position: fixed;
     top: -8px;
     left: 0;
     right: 0;
@@ -19,7 +19,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: red;
     margin: 2em;
 
 }
@@ -65,4 +64,100 @@ header {
        }
     }
     
+} */
+
+
+
+.header-container {
+    position:fixed;
+    background-color: #69995d;
+    z-index: 999;
+    top: -10px;
+    padding: 1.2em;
+    font-family: Great3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    left: 0;
+    right: 0;
+}
+.left-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+.headerIcon {
+    /* background-color: rgba(189, 245, 106, 0.639); */
+    padding: 0.4em;
+    width: 3em;
+    stroke: green;
+    height: 3em;
+    background-color: rgb(199, 225, 59);
+    border-radius: 0.3em;
+}
+.rightHeader {
+  
+    button {
+        background-color: rgb(199, 225, 59);
+        border: 0;
+        cursor: pointer;
+    }
+}
+.rightIcon {
+    stroke: green;
+    padding: 0.4em;
+    width: 3em;
+    height: 3em;
+    background-color: rgb(199, 225, 59);
+    border-radius: 0.3em;    
+}
+.dropDownContainer {
+    display: none;
+    a {
+        text-decoration: none;
+        color: white;
+        list-style: none;
+    }
+}
+.heroContainer {
+    position: absolute;
+    top: 20%;
+    font-family: Great1;
+    padding: 2em;
+    color: white;
+    h1 {
+        font-size: 2.5em;
+        margin-bottom: 1em;
+    }
+}
+.leftHero {
+    p {
+        font-size: 1.4em;
+        margin-bottom: 1em;
+    }
+}
+.buttonCnt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2em;
+    button {
+        padding: 0.7em;
+        border-radius: 3em;
+        border: 1px solid transparent;
+        font-size: 1.1em;
+        font-weight: 600;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+.leftBtn {
+    a {
+        color: black;
+    }
+    button {
+        background-color: rgb(199, 225, 59);
+    }
 }

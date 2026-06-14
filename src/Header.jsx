@@ -21,7 +21,23 @@ export default function Header () {
             </div>
         </header>
         </div> */}
-            it 
+             <div className="header-container">
+          <div className="left-header">
+            <h3>ApexForge Technologies</h3>
+          </div>
+           {/* Space for the 2 diffrent flex divs */}
+            <div className="rightHeader">
+              <button ><Sun className="rightIcon"/></button>
+                  <ul className="dropDownContainer">
+                  <a href="#story"><li>Our Story</li></a>
+                  <a href="#products"><li>Products</li></a>
+                  <a href="#sustainability"><li>Sustainability</li></a>
+                  <a href="#partner"><li>Partner</li></a>
+                  <a href="#contact"><li>Contact</li></a>
+                <button className="button"><a href="#partner">Partner With Us</a></button>
+                </ul>
+            </div>
+        </div>
             
             
         </>
