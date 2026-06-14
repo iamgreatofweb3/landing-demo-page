@@ -8,7 +8,7 @@
     z-index: 999;
     display: flex;
     align-items: center;
-    gap: 11em;
+    justify-content: space-between;
     padding:1.5em;
 
 }
@@ -40,7 +40,7 @@
     border-radius: 999px;
     position: relative;
     left: -1em;
-    overflow-x: none;
+
     
 }
 
