@@ -3,7 +3,7 @@ import { Moon,Sun} from "lucide-react"
 export default function Header () {
     return (
         <>
-        <div className="main-container">
+        {/* <div className="main-container">
 
         <header>
 
@@ -16,13 +16,12 @@ export default function Header () {
                 <a href="#Process"><li>Process</li></a>
                 <a href="#Work"><li>Work</li></a>
                 <a href="#Contact"><li>Contact</li></a>
-               {/* <Moon className="MoonIcon icon"/> */}
                <Sun className="icon SunIcon"/>
               </ul>    
             </div>
         </header>
-        </div>
-            
+        </div> */}
+            it 
             
             
         </>
