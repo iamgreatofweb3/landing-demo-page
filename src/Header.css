@@ -6,7 +6,7 @@
      left: 0;
      right: 0;
      top: 0px;
-    z-index: 999; 
+     
     padding: 10px;
     border-bottom: 1px solid hsla(0, 0%, 100%, 0.397);
     margin: 2em;
@@ -26,9 +26,10 @@
 }
 .left-header {
     font-family: Great3;
+    z-index: 999;
 }
 .right-header {
-   
+   z-index: 999;
  
  li {
     list-style: none;
