@@ -1,27 +1,15 @@
  header { 
-     display: flex;
-    align-items: center;
-    justify-content: space-between;
-     position: fixed; 
-     left: 0;
-     right: 0;
-     top: 0px;
-     
-    padding: 10px;
-    border-bottom: 1px solid hsla(0, 0%, 100%, 0.397);
-    margin: 2em;
-    overflow: none;
+ 
     
-/*     
      position: fixed;
-    top: -8px;
+    top: -1em;
     left: 0;
     right: 0;
     z-index: 999;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin: 2em; */
+    gap: 11em;
+    padding:1.5em;
 
 }
 .left-header {
@@ -51,7 +39,6 @@
     opacity: blur;
     border-radius: 999px;
     position: relative;
-    top: 80px;
     left: -1em;
     overflow-x: none;
     
@@ -70,6 +57,10 @@
     font-size: 20px;
     font-family: Great1;
        }
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
     }
 }
     
